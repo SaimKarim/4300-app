@@ -1,12 +1,12 @@
 import React from "react";
-import Hdr from "./components/Hdr";
+import Hdr from "./src/app/components/Hdr";
+import SignInPage from "./src/app/components/SignInPage";
 
 function SignIn() {
   return (
     <div>
       <Hdr />
-      <h1>LOGIN</h1>
-      <p>Future Login Page</p>
+      <SignInPage />
     </div>
   );
 }
