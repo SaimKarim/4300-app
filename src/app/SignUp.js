@@ -1,12 +1,12 @@
 import React from "react";
-import Hdr from "./components/Hdr";
+import Hdr from "./src/app/components/Hdr";
+import SignUpPage from "./src/app/components/SignUpPage";
 
 function SignUp() {
   return (
     <div>
       <Hdr />
-      <h1>SIGN-UP</h1>
-      <p>Future Signup Page</p>
+      <SignUpPage />
     </div>
   );
 }
