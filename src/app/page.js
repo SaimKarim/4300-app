@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./HomePage";
+import HomePage from "../../HomePage";
 import AboutPage from "./AboutPage";
-import BlogPostPage from "./SignIn";
+import BlogPostPage from "../../SignIn";
 import Navigation from "./Navigation";
-import SignIn from "./SignIn";
-import SignUp from "./SignUp";
+import SignIn from "../../SignIn";
+import SignUp from "../../SignUp";
 
 function App() {
   return (
