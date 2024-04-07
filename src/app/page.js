@@ -1,14 +1,12 @@
 "use client";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "../../HomePage";
+import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
-import BlogPostPage from "../../SignIn";
+import BlogPostPage from "./SignIn";
 import Navigation from "./Navigation";
-import SignIn from "../../SignIn";
-import SignUp from "../../SignUp";
-import AddWorkout from "./components/AddWorkout";
-import WorkoutHistory from "./components/WorkoutHistory";
+import SignIn from "./SignIn";
+import SignUp from "./SignUp";
 
 function App() {
   return (
@@ -17,12 +15,10 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/login/" element={<SignIn />}/>
-          <Route path="/signup/" element={<SignUp />}/>
-          <Route path="/workout-history" element={<WorkoutHistory />} />
-          <Route path="/add-workout" element={<AddWorkout />} />
+          <Route path="/login/" element={<SignIn />} />
+          <Route path="/signup/" element={<SignUp />} />
         </Routes>
-        
+
       </div>
     </BrowserRouter>
   );

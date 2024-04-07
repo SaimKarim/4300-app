@@ -1,5 +1,5 @@
 import React from "react";
-import Hdr from "./src/app/components/Hdr";
+import Hdr from "./components/Hdr";
 import SignUpPage from "./src/app/components/SignUpPage";
 import Footer from "./src/app/components/Footer";
 
