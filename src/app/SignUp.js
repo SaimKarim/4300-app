@@ -1,6 +1,6 @@
 import React from "react";
-import Hdr from "./src/app/components/Hdr";
-import SignUpPage from "./src/app/components/SignUpPage";
+import Hdr from "./components/Hdr";
+import SignUpPage from "./components/SignUpPage";
 
 function SignUp() {
   return (
