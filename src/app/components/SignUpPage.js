@@ -20,9 +20,9 @@ const SignUpPage = () => {
     };
 
     return (
-        <div className="sign-in-page">
+        <div className="sign-up-page">
             <img className="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdiscoverycollege.co.uk%2Fwp-content%2Fuploads%2F2018%2F08%2Fsport_btec_discovery6.jpg&f=1&nofb=1&ipt=cf4115ccd80c02eae3bb652c74e8b9c56b6906eb4e6efe62f5ebb8850c004755&ipo=images" alt="Guy running on track" />
-            <div className="sign-in-section">
+            <div className="sign-up-section">
                 <h3>Please enter your email, username and password</h3>
                 <form onSubmit={signIn}><br />
 

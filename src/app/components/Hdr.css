@@ -19,3 +19,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 15px;
 }
+.hdr a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  }
