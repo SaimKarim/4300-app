@@ -1,10 +1,8 @@
 .sign-in-page {
-    height: 650px;
     display: flex;
     flex-direction: row; /* Change flex direction to row */
     align-items: center; /* Center vertically */
     justify-content: flex-end; /* Align items to the right */
-    padding: 0 50px; /* Adjust padding */
     text-align: center; /* Center text */
 }
 
@@ -15,9 +13,12 @@
 /* Style for the image */
 .image {
     margin-right: 20px; /* Add margin to separate from the form */
-    margin-top: 400px;
-   
+    margin-top: 0px;
+    object-fit: none;
+    height: 885px;
+    width: 1400px;
 }
+
 
 .sign-in-section {
     display: flex;
