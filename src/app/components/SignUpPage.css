@@ -1,23 +1,42 @@
-.sign-up-page {
-    display: flex;
-    flex-direction: row; /* Change flex direction to row */
-    align-items: center; /* Center vertically */
-    justify-content: flex-end; /* Align items to the right */
-    text-align: center; /* Center text */
-    
-    
-}
-
-/* Style for the image */
-.image {
-    margin-right: 20px; /* Add margin to separate from the form */
-    margin-top: 0px;
-    object-fit: none;
-    height: 865px;
-    width: 1400px;
-}
-
-.sign-up-section {
-    display: flex;
-    flex-direction: column; /* Change flex direction to row */
-}
+.add-workout-container {
+   
+    padding: 20px;
+    margin: 30px;
+    border-radius: 12px;
+    /*bo-shadow: 0 4px 10px rgba(0,0,0,0.3);*/
+    background: rgb(173, 186, 145); /* Background green */
+  }
+  
+  .add-workout-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #007a1b; /* Main green */
+ /* Main green */
+  }
+  
+  .add-workout-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #66BB6A; /* Light green */
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-workout-form input:hover,
+  .add-workout-form input:focus {
+    border-color: #4CAF50; /* Main green */
+  }
+  
+  .add-workout-form button {
+    padding: 12px 20px;
+    background-color: #4CAF50; /* Main green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-workout-form button:hover {
+    background-color: #66BB6A; /* Light green */
+  }
